@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/navigationdrawer_header_width"
+    android:layout_height="@dimen/navigationdrawer_header_height"
+    android:layout_marginBottom="@dimen/navigationbar_image_marginBottom">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/header_background"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="@dimen/navigationdrawer_header_imagesize"
+        android:layout_height="@dimen/navigationdrawer_header_imagesize"
+        android:layout_marginLeft="@dimen/navigationdrawer_marginleft"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/oval_shape"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/navigationdrawer_header_textcontainer"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigationdrawer_header_textcontainer"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/navigationdrawer_marginleft"
+        android:layout_marginRight="@dimen/navigationdrawer_marginright">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/navigationdrawer_header_titletext"
+                android:textColor="@color/navigationDrawerTextColor"
+                android:layout_gravity="bottom"
+                android:textSize="@dimen/navigationdrawer_textsize"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/navigationdrawer_header_subtitletext"
+                android:textColor="@color/navigationDrawerTextColor"
+                android:textSize="@dimen/navigationdrawer_textsize"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

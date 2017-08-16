@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="navigationbar_width">280dp</dimen>
+    <dimen name="navigationbar_image_width">280dp</dimen>
+    <dimen name="navigationbar_image_height">140dp</dimen>
+    <dimen name="navigationbar_image_marginTop">24dp</dimen>
+    <dimen name="navigationbar_image_marginBottom">16dp</dimen>
+    <dimen name="toolBar_paddingTop">0dp</dimen>
+
+
+    <dimen name="navigationdrawer_header_width">280dp</dimen>
+    <dimen name="navigationdrawer_header_height">160dp</dimen>
+    <dimen name="navigationdrawer_marginleft">16dp</dimen>
+    <dimen name="navigationdrawer_marginright">16dp</dimen>
+    <dimen name="navigationdrawer_header_marginbottom">16dp</dimen>
+    <dimen name="navigationdrawer_header_imagesize">64dp</dimen>
+    <dimen name="navigationdrawer_textsize">14sp</dimen>
+    <dimen name="navigationdrawer_header_textcontainer">56dp</dimen>
+    
+    <dimen name="navigationdrawer_subtitle_and_listitems">48dp</dimen>
+    <dimen name="navigationdrawer_subtitle_and_listitems_imagesize">24dp</dimen>
+    <dimen name="navigationdrawer_subtitle_and_listitems_textmarginleft">32dp</dimen>
+    <dimen name="navigationdrawer_space_between_contentarea">8dp</dimen>
+</resources>

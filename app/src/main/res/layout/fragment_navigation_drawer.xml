@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.examples.navigationdrawer.materialdesign.NavigationDrawerFragment"
+    android:background="@color/navigationDrawerBackgroundColor">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigationDrawerImageBackgroundColor">
+        <ImageView
+            android:layout_width="@dimen/navigationbar_image_width"
+            android:layout_height="@dimen/navigationbar_image_height"
+            android:src="@drawable/navigation_image"
+            android:layout_marginTop="@dimen/navigationbar_image_marginTop"
+            android:layout_marginBottom="@dimen/navigationbar_image_marginBottom"/>
+    </LinearLayout>-->
+
+   <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/header"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"></ImageView>-->
+
+    <include
+        android:id="@+id/navigation_drawer_headercontainerID"
+        layout="@layout/navigation_drawer_header"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/navigation_drawer_headercontainerID">
+        <include
+            android:id="@+id/navigation_drawer_bodycontainerID"
+            layout="@layout/navigation_drawer_body" />
+    </RelativeLayout>
+
+</RelativeLayout>

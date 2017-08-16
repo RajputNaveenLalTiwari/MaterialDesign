@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="app_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="title_activity_next">NextActivity</string>
+    <string name="mainactivity_name">MainActivity</string>
+    <string name="nextactivity_name">NextActivity</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="navigationdrawer_header_titletext">Rajput Naveen Lal</string>
+    <string name="navigationdrawer_header_subtitletext">naveenlal.rajput@indiaapps.com</string>
+</resources>
